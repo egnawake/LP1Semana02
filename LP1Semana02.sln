@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoresEspeciais", "Valores
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfExample", "IfExample\IfExample.csproj", "{A32F2DF2-D9B4-4E29-B94F-7A3D090D3CF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skynet", "Skynet\Skynet.csproj", "{CAF0B095-0068-4FD8-A8BA-6CF32B43D551}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{A32F2DF2-D9B4-4E29-B94F-7A3D090D3CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A32F2DF2-D9B4-4E29-B94F-7A3D090D3CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A32F2DF2-D9B4-4E29-B94F-7A3D090D3CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF0B095-0068-4FD8-A8BA-6CF32B43D551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF0B095-0068-4FD8-A8BA-6CF32B43D551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF0B095-0068-4FD8-A8BA-6CF32B43D551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF0B095-0068-4FD8-A8BA-6CF32B43D551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
