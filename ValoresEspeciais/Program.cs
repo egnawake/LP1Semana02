@@ -16,6 +16,15 @@ namespace ValoresEspeciais
             Console.WriteLine($"ulong:\t{ulong.MinValue} - {ulong.MaxValue}");
             Console.WriteLine($"float:\t{float.MinValue} - {float.MaxValue}");
             Console.WriteLine($"double:\t{double.MinValue} - {double.MaxValue}");
+            Console.WriteLine("");
+
+            Console.WriteLine($"float +Infinity: {float.PositiveInfinity}");
+            Console.WriteLine($"float -Infinity: {float.NegativeInfinity}");
+            Console.WriteLine($"float NaN: {float.NaN}");
+            Console.WriteLine($"double +Infinity: {double.PositiveInfinity}");
+            Console.WriteLine($"double -Infinity: {double.NegativeInfinity}");
+            Console.WriteLine($"double NaN: {double.NaN}");
+
         }
     }
 }
