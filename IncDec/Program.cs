@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace IncDec
 {
@@ -12,6 +12,12 @@ namespace IncDec
             Console.WriteLine("Suffix");
             Console.WriteLine($"a = {a}; b = {b}");
             Console.WriteLine($"(a++) + b = {a++ + b}");
+            Console.WriteLine($"a = {a}; b = {b}");
+            Console.WriteLine("");
+
+            Console.WriteLine("Prefix");
+            Console.WriteLine($"a = {a}; b = {b}");
+            Console.WriteLine($"a + (--b) = {a + --b}");
             Console.WriteLine($"a = {a}; b = {b}");
         }
     }
