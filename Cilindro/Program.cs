@@ -6,7 +6,7 @@ namespace Cilindro
     {
         static void Main(string[] args)
         {
-            float pi = Math.PI;
+            float pi = (float) Math.PI;
             float height;
             float radius;
             string inp;
