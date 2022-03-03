@@ -24,7 +24,10 @@ namespace ValoresEspeciais
             Console.WriteLine($"double +Infinity: {double.PositiveInfinity}");
             Console.WriteLine($"double -Infinity: {double.NegativeInfinity}");
             Console.WriteLine($"double NaN: {double.NaN}");
+            Console.WriteLine("");
 
+            short maxShort = short.MaxValue;
+            Console.WriteLine($"short overflow: {maxShort} + 1 = {(short) (maxShort + 1)}");
         }
     }
 }
