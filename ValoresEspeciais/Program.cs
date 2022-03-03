@@ -28,6 +28,14 @@ namespace ValoresEspeciais
 
             short maxShort = short.MaxValue;
             Console.WriteLine($"short overflow: {maxShort} + 1 = {(short) (maxShort + 1)}");
+
+            Console.WriteLine("float overflow (infinity): {0} * 2 = {1}",
+                float.MaxValue,
+                float.MaxValue * 2);
+
+            Console.WriteLine("double overflow (unchanged): {0} + 1 = {1}",
+                double.MaxValue,
+                double.MaxValue + 1);
         }
     }
 }
