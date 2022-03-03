@@ -19,7 +19,7 @@ namespace Cilindro
             inp = Console.ReadLine();
             radius = float.Parse(inp);
 
-            float volume = pi * radius * radius * height;
+            float volume = pi * Math.Pow(radius, 2) * height;
             float area = 2 * pi * radius * (radius + height);
 
             Console.WriteLine($"Volume = {volume}");
