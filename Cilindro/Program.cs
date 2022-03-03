@@ -6,21 +6,21 @@ namespace Cilindro
     {
         static void Main(string[] args)
         {
-            float pi = (float) Math.PI;
-            float height;
-            float radius;
+            double pi = Math.PI;
+            double height;
+            double radius;
             string inp;
 
             Console.Write("Enter height: ");
             inp = Console.ReadLine();
-            height = float.Parse(inp);
+            height = double.Parse(inp);
 
             Console.Write("Enter radius: ");
             inp = Console.ReadLine();
-            radius = float.Parse(inp);
+            radius = double.Parse(inp);
 
-            float volume = pi * Math.Pow(radius, 2) * height;
-            float area = 2 * pi * radius * (radius + height);
+            double volume = pi * Math.Pow(radius, 2) * height;
+            double area = 2 * pi * radius * (radius + height);
 
             Console.WriteLine($"Volume = {volume}");
             Console.WriteLine($"Area = {area}");
