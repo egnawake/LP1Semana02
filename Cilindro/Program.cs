@@ -20,8 +20,10 @@ namespace Cilindro
             radius = float.Parse(inp);
 
             float volume = pi * radius * radius * height;
+            float area = 2 * pi * radius * (radius + height);
 
             Console.WriteLine($"Volume = {volume}");
+            Console.WriteLine($"Area = {area}");
         }
     }
 }
