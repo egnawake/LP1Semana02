@@ -36,6 +36,12 @@ namespace ValoresEspeciais
             Console.WriteLine("double overflow (unchanged): {0} + 1 = {1}",
                 double.MaxValue,
                 double.MaxValue + 1);
+
+            float f1, f2;
+            f1 = f2 = 100.0f;
+            Console.WriteLine("float underflow:");
+            Console.WriteLine($"  {f1} == {f2} = {f1 == f2}");
+            Console.WriteLine($"  {f1} == {f2} + 0.000001 = {f1 == (f2 + 0.000001f)}");
         }
     }
 }
