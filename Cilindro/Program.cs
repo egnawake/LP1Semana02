@@ -6,6 +6,7 @@ namespace Cilindro
     {
         static void Main(string[] args)
         {
+            float pi = 3.1415926f;
             float height;
             float radius;
             string inp;
@@ -18,8 +19,9 @@ namespace Cilindro
             inp = Console.ReadLine();
             radius = float.Parse(inp);
 
-            Console.WriteLine($"Height = {height}");
-            Console.WriteLine($"Radius = {radius}");
+            float volume = pi * radius * radius * height;
+
+            Console.WriteLine($"Volume = {volume}");
         }
     }
 }
